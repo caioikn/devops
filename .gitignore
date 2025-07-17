@@ -1,0 +1,17 @@
+# Target
+/target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Logs
+*.logs
+
+# Arquivos Temporários
+*.tmp
+*.swp
+
+# Ambientes
+.env
