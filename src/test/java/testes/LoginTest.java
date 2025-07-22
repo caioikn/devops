@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 import drivers.Drivers;
 import pages.HomePage;
+import utils.ScreenshotUtil;
 
 public class LoginTest {
 	
@@ -27,6 +28,7 @@ public class LoginTest {
 	@Test
 	public void loginSucesso() {
 		home.login("cefapem931@cxnlab.com", "123456");
+		ScreenshotUtil.screenshot(driver, "Login", "LoginSucesso");
 	}
 
 }
